@@ -18,9 +18,7 @@ model = get_model()
 st.title("Insurance Charges Prediction App")
 st.markdown("Enter your personal details to get a prediction of your insurance\
         charges. This is a simple app showcasing the abilities of the PyCaret\
-        regression module, based on Streamlit. For more information visit the\
-        [Simplifying Machine Learning with PyCaret]\
-        (https://leanpub.com/pycaretbook/) book website.")
+        regression module, based on Streamlit.")
 
 form = st.form("charges")
 age = form.number_input('Age', min_value=1, max_value=100, value=25)
